@@ -1,14 +1,15 @@
 {
-  "name": "nodejs-templates",
-  "version": "1.0.0",
-  "description": "Nodejs application to render static html templates",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Jacob kyalo",
-  "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^2.0.20"
-  }
+    "name": "nodejs-templates",
+    "version": "1.0.0",
+    "description": "Nodejs application to render static html templates",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index",
+        "dev": "nodemon index"
+    },
+    "author": "Jacob kyalo",
+    "license": "ISC",
+    "devDependencies": {
+        "nodemon": "^2.0.20"
+    }
 }
