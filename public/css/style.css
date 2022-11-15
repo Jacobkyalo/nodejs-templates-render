@@ -20,6 +20,7 @@
 html,
 body {
     font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
 }
 body {
     background-color: var(--bg);
@@ -278,7 +279,7 @@ a {
     height: auto;
     background-color: var(--text-light);
     border-radius: 20px;
-    box-shadow: 1px 2px 1px var(--primary);
+    box-shadow: 2px 20px 30px var(--primary);
     margin: 0 15px;
     z-index: 100;
 }
@@ -301,10 +302,15 @@ a {
 .sm--link .link:hover {
     color: var(--primary);
 }
+
+/* About page styles */
+.header--lower {
+    padding: 2rem 0;
+}
 /* Media queries */
 @media only screen and (max-width: 992px) {
     .header {
-        height: 55vh;
+        height: auto;
     }
     .content .heading {
         font-size: 1.8rem;
@@ -313,7 +319,7 @@ a {
 
 @media only screen and (max-width: 768px) {
     .header {
-        height: 60vh;
+        height: auto;
     }
     .content .heading {
         font-size: 1.8rem;
@@ -329,7 +335,8 @@ a {
 @media only screen and (max-width: 576px) {
     .container {
         width: 100%;
-        margin: 0 15px;
+        /* margin: 0 15px; */
+        padding: 10px 20px;
     }
     .header {
         height: auto;
