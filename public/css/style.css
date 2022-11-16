@@ -92,6 +92,7 @@ a {
 .content .desc {
     margin: 2rem 0;
     font-size: 18px;
+    text-align: start;
 }
 .header--btn {
     display: inline-block;
@@ -187,9 +188,13 @@ a {
     font-size: 30px;
     color: var(--primary);
 }
+
 .service--content h4 {
     font-size: 20px;
     text-transform: capitalize;
+}
+.service--content p {
+    text-align: start;
 }
 .work--together {
     margin: 3rem 0;
@@ -326,6 +331,7 @@ a {
 }
 .left--content p {
     font-size: 1.1rem;
+    text-align: start;
 }
 .right--content img {
     width: 100%;
@@ -415,6 +421,10 @@ textarea::placeholder {
 .form input[type="submit"]:hover {
     background-color: var(--primary-light);
 }
+/* services */
+.check {
+    margin-bottom: 3rem;
+}
 /* error page */
 .error--page {
     height: 100%;
@@ -501,6 +511,9 @@ textarea::placeholder {
     }
     .content {
         order: 2;
+    }
+    .content .desc {
+        text-align: center;
     }
     .header--image {
         order: 1;
